@@ -25,7 +25,7 @@ Craete a firebase project. Add Realtime DB and set rules as below :
 Make sure Firesharp is installeg using nuget.
 To install run from nuget CLI:
 
-Install-Package FireSharp
+$ Install-Package FireSharp
 
 open settings.cs file and add from firebase your Auth secret to __AuthSecret and basePath url to __BasePath.
 

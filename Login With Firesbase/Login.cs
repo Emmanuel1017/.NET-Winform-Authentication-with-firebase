@@ -20,10 +20,12 @@ namespace Login_Sample
 {
     public partial class Login : Form
     {
+        private static Settings pub = new Settings();
+
         IFirebaseConfig ifc = new FirebaseConfig()
         {
-            AuthSecret = "HIyNsQjhgU5nAiB9tWQ6W5DIHOr9NHqK6QgRzMvP",
-            BasePath = "https://realtime-test-46b84-default-rtdb.firebaseio.com/"
+            AuthSecret = pub.__AuthSecret,
+            BasePath = pub.__BasePath
         };
 
         IFirebaseClient client;
@@ -33,12 +35,8 @@ namespace Login_Sample
             InitializeComponent();
         }
 
-        private static Settings pub = new Settings();
-        static MySqlConnection db = new MySqlConnection(pub.__DBString);
-        MySqlCommand cmd = new MySqlCommand();
-        MySqlDataAdapter adtr;
-        MySqlDataReader dr;
-        DataSet ds;
+       
+       
         Random r = new Random();
         int x, y;
         bool Higlighted = false;

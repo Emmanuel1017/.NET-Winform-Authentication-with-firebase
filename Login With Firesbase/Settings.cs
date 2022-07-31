@@ -13,6 +13,10 @@ namespace Login_Sample
     class Settings
     {
 
+
+        public String __AuthSecret = "HIyNsQjhgU5nAiB9tWQ6W5DIHOr9NHqK6QgRzMvP";
+        public String __BasePath = "https://realtime-test-46b84-default-rtdb.firebaseio.com/";
+
         public String __APPVERSION = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
         public String __SAAT = DateTime.Now.ToLongTimeString();
         public String __TARIH = DateTime.Now.ToShortDateString();

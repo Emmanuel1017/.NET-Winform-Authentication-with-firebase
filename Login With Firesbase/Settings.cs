@@ -12,12 +12,6 @@ namespace Login_Sample
 {
     class Settings
     {
-        public static String __SERVER = "remotemysql.com";
-        public static String __DATABASE = "Lw43gevxxn";
-        public static String __USERNAME = "Lw43gevxxn";
-        public static String __PASSWORD = "NE0XVv1Dr7";
-
-        public String __DBString = String.Format("SERVER={0};DATABASE={1};UID={2};PWD={3}", __SERVER, __DATABASE, __USERNAME, __PASSWORD);
 
         public String __APPVERSION = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
         public String __SAAT = DateTime.Now.ToLongTimeString();

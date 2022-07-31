@@ -22,6 +22,8 @@ namespace Login_Sample
     public partial class Register : Form
     {
 
+        private static Settings pub = new Settings();
+
         IFirebaseConfig ifc = new FirebaseConfig()
         {
             AuthSecret = "HIyNsQjhgU5nAiB9tWQ6W5DIHOr9NHqK6QgRzMvP",
@@ -36,13 +38,7 @@ namespace Login_Sample
         }
 
 
-       
-        static Settings pub = new Settings();
-        static MySqlConnection db = new MySqlConnection(pub.__DBString);
-        MySqlCommand cmd = new MySqlCommand();
-        MySqlDataAdapter adtr;
-        MySqlDataReader dr;
-        DataSet ds;
+
         Random r = new Random();
         int x, y;
         bool Higlighted = false;

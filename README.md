@@ -17,12 +17,8 @@ To use clone and run login.sln
 
 Craete a firebase project. Add Realtime DB and set rules to :
 
- {
-  "rules": {
-    ".read": true,
-    ".write": true,
-  }
-}
+
+![Screenshot 2022-06-22 140108](https://user-images.githubusercontent.com/41972019/182037650-118cc9a6-f75b-4ffb-bfdb-c79d12ee10ae.png)
 
 
 

@@ -28,7 +28,6 @@ To install run from nuget CLI:
 
 ```
 Install-Package FireSharp
-
 ```
  
 open settings.cs file and add from firebase your Auth secret to __AuthSecret and basePath url to __BasePath.

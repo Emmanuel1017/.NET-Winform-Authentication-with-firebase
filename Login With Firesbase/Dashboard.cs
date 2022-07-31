@@ -19,7 +19,7 @@ namespace Login_Sample
             InitializeComponent();
         }
         static Settings pub = new Settings();
-        public MySqlConnection db = new MySqlConnection(pub.__DBString);
+  
         public MySqlCommand cmd = new MySqlCommand();
         public MySqlDataAdapter adtr;
         public MySqlDataReader dr;

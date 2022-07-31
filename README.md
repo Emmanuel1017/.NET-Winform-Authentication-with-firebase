@@ -13,9 +13,9 @@ Authenticate win-forms with firebase real-time DB. A illustration of using fireb
 
 
 
+## Installation
+
 To use clone and run login.sln
-
-
 
 
 Craete a firebase project. Add Realtime DB and set rules as below :

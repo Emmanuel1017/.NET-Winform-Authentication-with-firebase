@@ -22,8 +22,12 @@ Craete a firebase project. Add Realtime DB and set rules as below :
 
 ![Screenshot 2022-07-31 200752](https://user-images.githubusercontent.com/41972019/182037667-75c713bb-5007-429b-9733-0297503b526a.png)
 
+Make sure Firesharp is installeg using nuget.
+To install run from nuget CLI:
+
+Install-Package FireSharp
 
 open settings.cs file and add from firebase your Auth secret to __AuthSecret and basePath url to __BasePath.
 
 
-Run thr e project and it will save user details to firebase using realtime DB
+Run the project and it will save user details to firebase using realtime DB.

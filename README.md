@@ -29,4 +29,6 @@ Run the project and it will save user details to firebase using realtime DB.
 
 
 The end result froM tHE DB will be as :
+
+
 ![Screenshot 2022-07-31 213115](https://user-images.githubusercontent.com/41972019/182040618-213f8542-4255-41a7-89b8-b962e5d04c68.png)

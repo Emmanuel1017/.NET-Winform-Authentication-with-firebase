@@ -17,9 +17,9 @@ To use clone and run login.sln
 
 Craete a firebase project. Add Realtime DB and set rules to :
 
+x
 
-![Screenshot 2022-06-22 140108](https://user-images.githubusercontent.com/41972019/182037650-118cc9a6-f75b-4ffb-bfdb-c79d12ee10ae.png)
-
+![Screenshot 2022-07-31 200752](https://user-images.githubusercontent.com/41972019/182037667-75c713bb-5007-429b-9733-0297503b526a.png)
 
 
 open settings.cs file and add from firebase your Auth secret to __AuthSecret and basePath url to __BasePath.

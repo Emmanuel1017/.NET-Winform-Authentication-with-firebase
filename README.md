@@ -7,5 +7,11 @@ Authenticate win-forms with firebase real-time DB. A illustration of using fireb
 .
 .
 .
-/n
-/n
+
+
+
+To use clone and run login.sln
+
+
+
+

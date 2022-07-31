@@ -2,7 +2,7 @@
 ![1_SFFbo8lkNxVQcmLrLDVRNw](https://user-images.githubusercontent.com/41972019/182037737-16e802c2-ef93-4c8f-b2ee-76fb2f77100c.png)
 
 # .NET-Winform-Authentication-with-firebase
-Authenticate win-forms with firebase real-time DB. A illustration of using firebase DB to Store user credentials and retrieve using C# with .NET
+Authenticate win-forms with firebase real-time DB. An illustration of using firebase DB to Store user credentials and retrieve using C# with .NET
 
 
 ## Installation

@@ -1,12 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Net.NetworkInformation;
-using System.Net;
-using MySql.Data;
-using MySql.Data.MySqlClient;
 
 namespace Login_Sample
 {
@@ -38,9 +30,7 @@ namespace Login_Sample
             else if (i == 10) { Messege = "Email Cannot Be Empty"; }
             else if (i == 11) { Messege = " Cannot Be Empty"; }
             else if (i == 12) { Messege = "Password Cannot Be Empty"; }
-            else if (i == 13) { Messege = "Captcha Required"; }
-            else if (i == 14) { Messege = "Wrong Captcha Check Captcha And Try Again "; }
-            else if (i == 15) { Messege = "Unkown Error"; }
+            else if (i == 15) { Messege = "Unknown Error"; }
             else if (i == 16) { Messege = "Too many characters  fields."; }
             else if (i == 17) { Messege = "Status Set Online."; }
 
